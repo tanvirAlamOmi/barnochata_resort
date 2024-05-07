@@ -1,0 +1,22 @@
+  2023-10-13 03:39:43 App\Jobs\ProcessBookingRequestMail ............. RUNNING
+  2023-10-13 03:39:47 App\Jobs\ProcessBookingRequestMail ............. 4s DONE
+  2023-10-13 03:39:53 App\Jobs\ProcessBookingRequestMail ............. RUNNING
+  2023-10-13 03:39:55 App\Jobs\ProcessBookingRequestMail ............. 1s DONE
+  2023-10-13 03:41:16 App\Jobs\ProcessBookingRequestMail ............. RUNNING
+  2023-10-13 03:41:18 App\Jobs\ProcessBookingRequestMail ............. 1s DONE
+  2023-10-13 03:44:57 App\Jobs\ProcessBookingRequestMail ............. RUNNING
+  2023-10-13 03:44:59 App\Jobs\ProcessBookingRequestMail ............. 2s DONE
+  2023-10-13 03:46:26 App\Jobs\ProcessBookingRequestMail ............. RUNNING
+  2023-10-13 03:46:28 App\Jobs\ProcessBookingRequestMail ............. 1s DONE
+  2023-10-13 03:48:55 App\Jobs\ProcessBookingRequestMail ............. RUNNING
+  2023-10-13 03:48:57 App\Jobs\ProcessBookingRequestMail ............. 2s DONE
+  2023-10-13 04:15:57 App\Mail\BookingRequestMail .................... RUNNING
+  2023-10-13 04:15:57 App\Mail\BookingRequestMail ................ 9.03ms FAIL
+  2023-10-13 04:15:57 App\Jobs\ProcessBookingRequestMail ............. RUNNING
+  2023-10-13 04:16:02 App\Jobs\ProcessBookingRequestMail ............. 5s DONE
+  2023-10-13 04:17:05 App\Mail\BookingRequestMail .................... RUNNING
+  2023-10-13 04:17:05 App\Mail\BookingRequestMail ................ 7.48ms FAIL
+  2023-10-13 04:17:38 App\Mail\BookingRequestMail .................... RUNNING
+  2023-10-13 04:17:38 App\Mail\BookingRequestMail ............... 12.95ms FAIL
+  2023-10-13 04:17:38 App\Jobs\ProcessBookingRequestMail ............. RUNNING
+  2023-10-13 04:17:39 App\Jobs\ProcessBookingRequestMail ............. 1s DONE

@@ -1,0 +1,352 @@
+.text-comfort {
+    color: #5A5A5A;
+}
+.bg-theme {
+  background-color: #0c2c38;
+}
+
+.pull-right {
+  float: right;
+}
+
+.pull-left {
+  float: left;
+}
+
+.fs-120 {
+  font-size: 120%;
+}
+
+.fs-100 {
+  font-size: 100%;
+}
+
+.fw-500 {
+  font-weight: 500;
+}
+
+.hide {
+  display: none;
+}
+
+.show {
+  display: block;
+}
+
+.lv-alert {
+  width: auto;
+  position: absolute;
+  right: 0px;
+  margin:0px;
+  padding: 5px;
+  padding-right: 35px;
+  z-index: 9999;
+}
+
+.lv-alert .btn-close {
+  margin:0px;
+  padding: 10px;
+}
+
+.mx-y-200 {
+  max-height: 200px;
+}
+
+.td-img {
+  max-height: 80px;
+}
+
+.btn-xs {
+  padding: 3px;
+  line-height: .8;
+}
+
+.mt-4px {
+  margin-top: 4px;
+}
+
+.navbar-brand img {
+    max-height: 56px;
+}
+
+/* The input-container */
+.input-container {
+    display: inline-block;
+    position: relative;
+    padding-left: 25px;
+    margin-bottom: 5px;
+    margin-left: 0px;
+    cursor: pointer;
+    font-size: 16px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+/* Hide the browser's default radio button */
+.input-container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+/* Create a custom radio button */
+.radio-checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    background-color: #ddd;
+    border-radius: 50%;
+}
+/* On mouse-over, add a grey background color */
+.input-container:hover input ~ .radio-checkmark {
+    background-color: #bbb;
+}
+/* When the radio button is checked, add a blue background */
+.input-container input:checked ~ .radio-checkmark {
+    background-color: #2196f3;
+}
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.radio-checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+/* Show the indicator (dot/circle) when checked */
+.input-container input:checked ~ .radio-checkmark:after {
+    display: block;
+}
+/* Style the indicator (dot/circle) */
+.input-container .radio-checkmark:after {
+    top: 6px;
+    left: 6px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: white;
+}
+/* Create a custom checkbox */
+.box-checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    background-color: #ddd;
+    border: 1px solid #bbb;
+}
+
+/* On mouse-over, add a grey background color */
+.input-container:hover input ~ .box-checkmark {
+    background-color: #bbb;
+}
+
+/* When the checkbox is checked, add a blue background */
+.input-container input:checked ~ .box-checkmark {
+    background-color: #2196f3;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.box-checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the checkmark when checked */
+.input-container input:checked ~ .box-checkmark:after {
+    display: block;
+}
+
+/* Style the checkmark/indicator */
+.input-container .box-checkmark:after {
+    left: 6px;
+    top: 2px;
+    width: 7px;
+    height: 12px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.content-box {
+    border: 1px solid rgba(0,0,0, .1);
+    height: 200px;
+    overflow: auto;
+    padding: 10px;
+}
+
+.content-box > .btn-group {
+    margin-bottom: -30px;
+}
+
+.content-box > .btn-group > button.btn {
+    border-radius: 4px !important;
+}
+
+.content-box > .btn-group > ul.dropdown-menu {
+    inset: 0px 0px auto auto !important;
+    min-width: unset !important;
+    padding: 0px;
+}
+
+.content-box > .btn-group > ul.dropdown-menu > li > a.dropdown-item,
+.content-box > .btn-group > ul.dropdown-menu > li > form > button.dropdown-item {
+    padding: 2px 5px;
+    background-color: #6c757d;
+    color: whitesmoke;
+}
+
+.content-box > .btn-group > ul.dropdown-menu > li > a.dropdown-item:hover,
+.content-box > .btn-group > ul.dropdown-menu > li > a.dropdown-item:active,
+.content-box > .btn-group > ul.dropdown-menu > li > form > button.dropdown-item:hover,
+.content-box > .btn-group > ul.dropdown-menu > li > form > button.dropdown-item:active {
+    padding: 2px 5px;
+    background-color: #000;
+    color: white;
+}
+
+.ck-editor__editable {
+    min-height: 200px;
+}
+
+.img-xs {
+    max-height: 40px;
+    max-width: 70px;
+}
+
+.bg-section-header {
+    background-color: wheat;
+}
+
+.action-btn-box {
+    border-left: 1px solid black;
+    padding-left: 15px;
+    margin-left: 15px;
+}
+
+.text-right {
+    text-align: right;
+}
+.img-cell {
+    max-height: 80px;
+}
+.mx-height-200 {
+    max-height: 200px;
+}
+.col-form-label {
+    font-weight: 500;
+}
+.counter-input {
+    width: 50px;
+}
+.pl-10 {
+    padding-left: 10px;
+}
+.btn-link, .pointer {
+    cursor: pointer;
+}
+.sb-sidenav-menu {
+    padding-bottom: 100px;
+}
+.datatable-bottom {
+    display: none;
+}
+
+/*  4yebNTrv0t=6   */
+
+.ml-20 {
+    margin-left: 20px;
+}
+.mr-15 {
+    margin-right: 15px;
+}
+.ml-5 {
+    margin-left: 5px;
+}
+.btn-box {
+    position: absolute;
+}
+.embed-div iframe {
+    width: 100%;
+}
+
+
+.sb-nav-fixed #layoutSidenav #layoutSidenav_nav {
+    width: 225px;
+    height: 85vh;
+    z-index: 1038;
+
+}
+
+.sb-nav-fixed #layoutSidenav #layoutSidenav_nav .sb-sidenav{
+    border-radius: 10px;
+    margin-top: 90px;
+    margin-left: 5px;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.164);
+}
+.sb-nav-link-icon svg{
+    color: #000;
+}
+.sb-sidenav-collapse-arrow svg
+{
+    color: #000;
+}
+.sb-sidenav-dark .sb-sidenav-menu .nav-link {
+    color: #000;
+}
+.sb-sidenav-dark .sb-sidenav-menu .nav-link.active
+{
+    background-color: #0F2C37;
+    color: #fff;
+    border-radius: 0 10px 10px 0;
+    margin-right: 20px;
+}
+.active svg
+{
+    color: #fff;
+}
+.nav-link:hover
+{
+    background-color: #0F2C37;
+    color: #fff;
+    border-radius: 0 10px 10px 0;
+    margin-right: 20px;
+
+}
+.sb-nav-link-icon svg:hover
+{
+    color: #fff;
+}
+
+.card
+{
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.164);
+}
+.datatable-top {
+    padding: 0 0 1.5rem;
+}
+.table > thead, .datatable-table > thead {
+    vertical-align: bottom;
+    background: #4554E5;
+    color: #fff;
+    line-height: 2.4em;
+}
+.bg-secondary {
+    background-color: #26A156!important;
+    font-weight: 400;
+}
+.table > tbody, .datatable-table > tbody {
+    vertical-align: inherit;
+    line-height: 3em;
+}
+
+.nav-link:hover .sb-nav-link-icon svg {
+    color: white;
+}
